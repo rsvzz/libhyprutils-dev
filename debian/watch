@@ -1,0 +1,8 @@
+version=5
+opts="mode=git, \
+filenamemangle=s%(?:.*?)?v?(\d\S+)%hyprutils-$1%" \
+https://github.com/hyprwm/hyprutils.git \
+refs/tags/v?(\d\S+)
+
+
+

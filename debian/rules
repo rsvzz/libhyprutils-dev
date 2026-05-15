@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE=1
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	cmake -S . -B builddir -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release
+
+override_dh_auto_build: 
+	cmake --build builddir -j$(shell nproc)
+
+override_dh_auto_install:
+	DESTDIR=$(CURDIR)/debian/tmp cmake --install builddir
+
+override_dh_auto_clean:
+	rm -rf builddir

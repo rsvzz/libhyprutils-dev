@@ -1,0 +1,12 @@
+Source: hyprutils-dev
+Section: utils
+Priority: optional
+Maintainer: rsvzz <ronald_soft88@outlook.com>
+Build-Depends: debhelper-compat (= 13), cmake, libpixman-1-dev
+Standards-Version: 4.5.0
+Homepage: https://github.com/rsvzz
+
+Package: hyprutils-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpixman-1-0
+Description: hyprutils is lib
