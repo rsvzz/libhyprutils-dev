@@ -1,5 +1,6 @@
 # how to use this repo
-### Create .deb of lib https://github.com/hyprwm/hyprutils.git
+## hyprutils-dev is library of hyprutils
+### Create .deb of libhyprutils-dev https://github.com/hyprwm/hyprutils.git
 
     uscan --verbose --download-current-version --force-download
     tar -xf ../hyprutils-dev-0.13.1.tar.gz //changed for new version
