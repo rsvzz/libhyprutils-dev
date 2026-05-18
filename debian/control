@@ -2,11 +2,11 @@ Source: libhyprutils-dev
 Section: utils
 Priority: optional
 Maintainer: rsvzz <ronald_soft88@outlook.com>
-Build-Depends: debhelper-compat (= 13), cmake, libpixman-1-dev
+Build-Depends: debhelper-compat (= 13), cmake, libpixman-1-dev, pkgconf
 Standards-Version: 4.5.0
-Homepage: https://github.com/rsvzz
+Homepage: https://github.com/rsvzz/libhyprutils-dev
 
 Package: libhyprutils-dev
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libpixman-1-0
-Description: hyprutils is lib
+Description: libhyprutils-dev is Package native of hyprutils for hyprland >= 0.55.0 ready

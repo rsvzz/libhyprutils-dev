@@ -1,7 +1,7 @@
-/debian/tmp/usr/lib/x86_64-linux-gnu/libhyprutils.so /usr/lib/
-/debian/tmp/usr/lib/x86_64-linux-gnu/libhyprutils.so.0.13.1 /usr/lib/
-/debian/tmp/usr/lib/x86_64-linux-gnu/libhyprutils.so.12 /usr/lib/x86_64-linux-gnu/
-/debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/hyprutils.pc /usr/lib/pkgconfig/
+/debian/tmp/usr/lib/${DEB_HOST_MULTIARCH}/libhyprutils.so /usr/lib/${DEB_HOST_MULTIARCH}/
+/debian/tmp/usr/lib/${DEB_HOST_MULTIARCH}/libhyprutils.so.0.13.1 /usr/lib/${DEB_HOST_MULTIARCH}/
+/debian/tmp/usr/lib/${DEB_HOST_MULTIARCH}/libhyprutils.so.12 /usr/lib/${DEB_HOST_MULTIARCH}/
+/debian/tmp/usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/hyprutils.pc /usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/
 /debian/tmp/usr/include/hyprutils /usr/include/
 /debian/tmp/usr/include/hyprutils/memory /usr/include/hyprutils/
 /debian/tmp/usr/include/hyprutils/memory/Casts.hpp /usr/include/hyprutils/memory/

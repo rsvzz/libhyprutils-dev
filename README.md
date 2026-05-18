@@ -1,6 +1,16 @@
 # how to use this repo
 ## hyprutils-dev is library of hyprutils
-### Create .deb of libhyprutils-dev https://github.com/hyprwm/hyprutils.git
+### this library is for hyprland (=>0.55) 
+# Get Ubuntu 26.04 LTS
+[![Get it Launchpad](https://launchpadlibrarian.net/606381979/CoF%2064px.png)](https://launchpad.net/~rsvzz/+archive/ubuntu/libhyprutils-dev)
+
+## Install PPA
+
+    sudo add-apt-repository ppa:rsvzz/libhyprutils-dev
+    sudo apt update
+    sudo apt install libhyprutils-dev
+
+### Create .deb of libhyprutils-dev https://github.com/hyprwm/hyprutils.git manual use this repo
 
     uscan --verbose --download-current-version --force-download
     tar -xf ../hyprutils-dev-0.13.1.tar.gz //changed for new version
@@ -12,6 +22,4 @@
     sudo apt remove hyprutils-dev
 
 ### Finished running lintian.
-
-## this repo public PPA comming soon for ubuntu 26.04 LTC
   
